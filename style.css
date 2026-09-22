@@ -1,0 +1,121 @@
+
+/* Configuração geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Área principal */
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Formulário */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #cccccc;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Título */
+caption {
+    font-size: 26px;
+    font-weight: bold;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Nome e data */
+thead td {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Labels de nome e data */
+thead label {
+    font-weight: bold;
+}
+
+/* Campos de nome e data */
+input[type="text"],
+input[type="date"] {
+    padding: 10px;
+    margin: 5px 15px 5px 5px;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Perguntas */
+.pergunta {
+    display: block;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+/* Área das alternativas */
+tbody tr:nth-child(2) td {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+/* Alternativas */
+label {
+    display: block;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+label:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+/* Botão Enviar */
+button {
+    display: block;
+    margin: 25px auto 0;
+    padding: 12px 35px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Efeito do botão */
+button:hover {
+    background-color: #555;
+}
